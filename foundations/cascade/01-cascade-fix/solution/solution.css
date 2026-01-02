@@ -88,7 +88,7 @@ div.text {
   div.text selector and it would come down to rule order, and if we only moved it, the div.text selector would still have a higher specificity.
   
   Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
-
+x
   .text .child {
     color: rgb(0, 0, 0);
     font-weight: 800;
